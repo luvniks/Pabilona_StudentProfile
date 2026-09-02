@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Student Profile
 
 ## About the Project
