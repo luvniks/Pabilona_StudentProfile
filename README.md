@@ -210,14 +210,25 @@ Screenshots of the different layouts are shown below.
 
 ![Desktop View](screenshots/desktop.png)
 ```
-
 ## What I Learned
 
-Through this activity, I learned that designing a website is not only about making it look good. It also needs to be easy to use on different devices.
+This activity helped me understand that creating a good interface is not just about making it look nice. I also have to consider how people will actually use it, especially when they are using different devices.
 
-I learned how responsive design can change the way content is arranged depending on the screen size. I also learned more about proper spacing, visual hierarchy, readability, and making interfaces easier to interact with on mobile devices.
+### Responsive Design
 
-Compared to my original Student Profile, I was able to make the design more responsive and organized while keeping the information simple and easy to access.
+I learned how important it is to make a website flexible instead of designing it for only one screen size. The layout needs to adjust depending on whether the user is viewing it on a phone, tablet, or desktop.
+
+### UI/UX
+
+I was able to apply concepts such as proper spacing, visual hierarchy, readability, and consistency. These helped make the Student Profile easier to understand and navigate.
+
+### Testing
+
+I also learned the importance of checking the design on different screen sizes. Something that looks fine on a desktop may not look the same on a mobile device, so testing and making adjustments are necessary.
+
+### Overall
+
+Compared to my original Student Profile, I was able to make the design more organized and responsive while keeping the information simple and easy to access. This activity also gave me a better understanding of how UI/UX principles can be applied to an actual project.
 
 ## Author
 
