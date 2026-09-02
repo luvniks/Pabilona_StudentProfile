@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,152 +10,220 @@
 
 <body>
 
-    <header class="profile-header">
-        <h1>Student Profile</h1>
+```
+<header class="profile-header">
 
-        <div class="profile-circle">
-			<img src="img/profile.jpg" alt="Annika Pabilona">
-		</div>
+    <div class="profile-circle">
+        <img src="img/profile.jpg" alt="Profile picture of Annika Margareth S. Pabilona">
+    </div>
 
-        <h2>Annika Margareth S. Pabilona</h2>
-        <p>Student</p>
-    </header>
+    <div class="header-content">
+        <p class="profile-label">STUDENT PROFILE</p>
+        <h1>Annika Margareth S. Pabilona</h1>
+        <p class="subtitle">Information Systems Student • About Myself</p>
+    </div>
 
-    <!-- Navigation -->
-    <nav class="profile-nav">
-        <a href="#about">About Me</a>
-        <a href="#skills">Skills</a>
-    </nav>
+</header>
 
-    <main>
+<!-- Navigation -->
+<nav class="profile-nav" aria-label="Main navigation">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+</nav>
 
-        <!-- Student Information -->
-        <section class="info-card">
-            <div class="info-row">
-                <div>
-                    <span>Program</span>
-                    <strong>Bachelor in Science in Information Systems</strong>
-                </div>
+<main>
 
-                <div>
-                    <span>University</span>
-                    <strong>Xavier University - Ateneo de Cagayan</strong>
-                </div>
+    <!-- Student Information -->
+    <section class="info-card" aria-label="Student information">
+
+        <div class="info-row">
+
+            <div class="info-item">
+                <span>Program</span>
+                <strong>Bachelor of Science in Information Systems</strong>
             </div>
 
-            <div class="divider"></div>
-
-            <div class="info-row">
-                <div>
-                    <span>Focus & Learning Area</span>
-                    <strong>Web Development</strong>
-                </div>
+            <div class="info-item">
+                <span>University</span>
+                <strong>Xavier University - Ateneo de Cagayan</strong>
             </div>
 
-            <div class="divider"></div>
+        </div>
 
-            <div class="info-row">
-                <div>
-                    <span>Email</span>
-                    <strong>annikapab@gmail.com</strong>
-                </div>
-            </div>
-        </section>
+        <div class="divider"></div>
 
-        <!-- About Me -->
-        <section class="content-card" id="about">
+        <div class="info-row">
 
-            <div class="section-heading">
-                <div class="icon">✦</div>
-
-                <div>
-                    <h2>Who I am</h2>
-                    <p>About me</p>
-                </div>
+            <div class="info-item">
+                <span>Focus & Learning Area</span>
+                <strong>Web Development</strong>
             </div>
 
-            <div class="divider"></div>
+            <div class="info-item">
+                <span>Current Year</span>
+                <strong>3rd Year Student</strong>
+            </div>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="info-row">
+
+            <div class="info-item">
+                <span>Email</span>
+                <strong>annikapab@gmail.com</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Me -->
+    <section class="content-card" id="about">
+
+        <div class="section-heading">
+
+            <div class="icon" aria-hidden="true">✦</div>
+
+            <div>
+                <p class="section-label">ABOUT ME</p>
+                <h2>Who I am</h2>
+            </div>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <p>
+            I am a 3rd Year Bachelor of Science in Information Systems student
+            at Xavier University with a strong interest in application
+            development, user interface design, and technopreneurship. I enjoy
+            exploring how technology can be used to create practical, creative,
+            and meaningful solutions to real-world problems.
+        </p>
+
+        <p>
+            Beyond academics, I am actively involved in student leadership as
+            the Department of Social Involvement Head of the Computer Studies
+            Student Council (CSSC). Through this role, I help organize
+            initiatives that encourage student engagement, collaboration, and
+            community involvement.
+        </p>
+
+        <p>
+            My goal is to continue developing my technical and creative skills
+            while gaining experience in application development and UI/UX
+            design. I hope to build useful digital solutions that can make
+            everyday tasks easier and provide value to different communities.
+        </p>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section class="content-card" id="skills">
+
+        <div class="section-heading">
+
+            <div class="icon" aria-hidden="true">✦</div>
+
+            <div>
+                <p class="section-label">SKILLS</p>
+                <h2>What I use</h2>
+            </div>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="skills-container">
+
+            <article class="skill">
+                <h3>HTML</h3>
+                <p>Used to structure webpages and create organized web content.</p>
+            </article>
+
+            <article class="skill">
+                <h3>CSS</h3>
+                <p>Used to design responsive layouts, visual styles, and user interfaces.</p>
+            </article>
+
+            <article class="skill">
+                <h3>Java</h3>
+                <p>Used for learning object-oriented programming and application development.</p>
+            </article>
+
+            <article class="skill">
+                <h3>Python</h3>
+                <p>Used for programming exercises, problem solving, and application development.</p>
+            </article>
+
+            <article class="skill">
+                <h3>UI/UX Design</h3>
+                <p>Focused on creating interfaces that are clear, usable, and user-friendly.</p>
+            </article>
+
+            <article class="skill">
+                <h3>Photoshop</h3>
+                <p>Used for image editing, graphics, and visual design projects.</p>
+            </article>
+
+            <article class="skill">
+                <h3>Premiere Pro</h3>
+                <p>Used for video editing and creating multimedia content.</p>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- Let's Connect -->
+    <section class="content-card">
+
+        <div class="section-heading">
+
+            <div class="icon" aria-hidden="true">✦</div>
+
+            <div>
+                <p class="section-label">CONTACT</p>
+                <h2>Let's connect</h2>
+            </div>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="contact-info">
 
             <p>
-    I am a 3rd Year Bachelor of Science in Information Systems student at Xavier University with
-    a strong interest in application development, user interface design, and
-    technopreneurship. I enjoy exploring how technology can be used to create
-    practical, creative, and meaningful solutions to real-world problems.
-</p>
+                <strong>Email</strong><br>
+                annikapab@gmail.com
+            </p>
 
-<p>
-    Beyond academics, I am actively involved in student leadership as the
-    Department of Social Involvement Head of the Computer Studies Student
-    Council (CSSC). Through this role, I help organize initiatives that
-    encourage student engagement, collaboration, and community involvement.
-</p>
+            <p>
+                <strong>Facebook / Instagram</strong><br>
+                Annika Pabilona
+            </p>
 
-        </section>
+            <p>
+                <strong>GitHub</strong><br>
+                luvniks
+            </p>
 
-        <!-- Skills -->
-        <section class="content-card" id="skills">
+        </div>
 
-            <div class="section-heading">
-                <div class="icon">✦</div>
+    </section>
 
-                <div>
-                    <h2>What I use</h2>
-                    <p>Skills and experience</p>
-                </div>
-            </div>
+</main>
 
-            <div class="divider"></div>
 
-            <div class="skills-container">
-                <span class="skill">Java</span>
-                <span class="skill">Python</span>
-                <span class="skill">CSS</span>
-                <span class="skill">HTML</span>
-                <span class="skill">Photoshop</span>
-                <span class="skill">Premiere Pro</span>
-                <span class="skill">UI/UX Design</span>
-            </div>
-
-        </section>
-
-        <!-- Let's Connect -->
-        <section class="content-card">
-
-            <div class="section-heading">
-                <div class="icon">✦</div>
-
-                <div>
-                    <h2>Let's connect</h2>
-                    <p>Find me online</p>
-                </div>
-            </div>
-
-            <div class="divider"></div>
-
-            <div class="contact-info">
-                <p>
-                    <strong>Email</strong><br>
-                    annikapab@gmail.com
-                </p>
-
-                <p>
-                    <strong>Facebook / Instagram</strong><br>
-                    Annika Pabilona
-                </p>
-
-                <p>
-                    <strong>GitHub</strong><br>
-                    luvniks
-                </p>
-            </div>
-
-        </section>
-
-    </main>
-
-    <footer>
-        © 2026 Annika Pabilona
-    </footer>
+<footer>
+    <p>© 2026 Annika Pabilona. All rights reserved.</p>
+</footer>
+```
 
 </body>
 </html>
