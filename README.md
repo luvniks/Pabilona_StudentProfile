@@ -209,7 +209,7 @@ Screenshots of the different layouts are shown below.
 ### Desktop
 
 ![Desktop View](screenshots/desktop.png)
-```
+
 ## What I Learned
 
 This activity helped me understand that creating a good interface is not just about making it look nice. I also have to consider how people will actually use it, especially when they are using different devices.
@@ -244,3 +244,6 @@ Xavier University – Ateneo de Cagayan
 **Module 4 – Mobile UI/UX Design Principles**
 
 This project was created for academic purposes.
+
+
+
