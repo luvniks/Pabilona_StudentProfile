@@ -196,23 +196,18 @@ The following principles from Module 4 were applied to the redesign:
 
 ## Screenshots
 
-Screenshots of the different layouts can be added here.
+Screenshots of the different layouts are shown below.
 
 ### Mobile
 
-```text
 ![Mobile View](screenshots/mobile.png)
-```
 
 ### Tablet
 
-```text
 ![Tablet View](screenshots/tablet.png)
-```
 
 ### Desktop
 
-```text
 ![Desktop View](screenshots/desktop.png)
 ```
 
